@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+/*
 Console.WriteLine("Hola a todes!");
 var n = 1.1;
 var square_n = 0.0;
@@ -48,5 +49,19 @@ int residuo = numC % 2;
 par = (residuo != 0);
 
 Console.WriteLine($"El numero {numC} tiene paridad: {!par}");
+*/
 
+int numA = 100;
+int numB = 12;
+
+if (numA > numB)
+{
+    Console.WriteLine($"primero mayor que el segundo");
+}
+else
+{
+    Console.WriteLine($"segundo mayor que el primero");
+    
+}
+Console.WriteLine($" A:{numA}\n B:{numB}");
 
