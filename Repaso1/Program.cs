@@ -22,4 +22,24 @@ Console.WriteLine(a || b);
 Console.WriteLine("not");
 Console.WriteLine(!a);
 
+//Relaciones
+
+float numA = 9.7f;
+float numB = 9.7f;
+
+Console.WriteLine($"Num A ({numA}) \t es igual que Num B ({numB})?  ");
+Console.WriteLine(numA==numB);
+
+//Entrar a un lugar para grandes
+Console.WriteLine("Ingrese su año de nacimiento");
+int fechaHoy = 2024;
+int nacimiento = int.Parse(Console.ReadLine());
+
+int edad = fechaHoy - nacimiento;
+
+Console.WriteLine($"La persona puede entrar? \n {edad>17}");
+
+
+
+
 
