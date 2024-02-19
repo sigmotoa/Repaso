@@ -39,7 +39,14 @@ int edad = fechaHoy - nacimiento;
 
 Console.WriteLine($"La persona puede entrar? \n {edad>17}");
 
+//Un numero es par?
+Console.WriteLine("Ingrese el numero para validar");
+int numC = Convert.ToInt16(Console.ReadLine());
+var par = false;
 
+int residuo = numC % 2;
+par = (residuo != 0);
 
+Console.WriteLine($"El numero {numC} tiene paridad: {!par}");
 
 
