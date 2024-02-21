@@ -100,6 +100,7 @@ while (true)
 //Aforo maximo de 10 personas
 
 
+/*
 int aforo = 0;
 while (aforo<=10)
 {
@@ -119,6 +120,7 @@ while (aforo<=10)
 
     Console.WriteLine($"El aforo hasta el momento es de: {aforo}");
 }
+*/
 
 
 /*
@@ -129,3 +131,65 @@ do
     Console.WriteLine("Ingrese su edad");
     edad = Convert.ToInt16(Console.ReadLine());
 } while (edad <= 20);*/
+
+//FOR
+
+/*
+for (int aforo = 0; aforo < 5; aforo++)
+{
+    Console.WriteLine("Quieres entrar al bar?");
+    bool ingresar=Convert.ToBoolean(Console.ReadLine());
+    if (ingresar == false)
+    {
+        aforo = aforo - 1;
+    }
+    Console.WriteLine(aforo);
+}
+*/
+
+Console.WriteLine("Ingrese su edad");
+
+int edad = int.Parse(Console.ReadLine());
+
+switch (edad)
+{
+    case 10:
+        Console.WriteLine("Para la casa");
+        break;
+    case 20:
+        Console.WriteLine("Gasta mucho en nuestro bar");
+        break;
+    case 90:
+        Console.WriteLine("Estas muy cuchis");
+        break;
+    default:
+        Console.WriteLine("No estas en nuestros registros");
+        break;
+}
+
+//Recibir por consola el signo del zodiaco e
+//indicar en la salida, los posibles meses de cumpleaños.
+//Usar Switch case
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
