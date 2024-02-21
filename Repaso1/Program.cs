@@ -1,6 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 /*
+ *
+ * Las cosas básicas de programar.
+
 Console.WriteLine("Hola a todes!");
 var n = 1.1;
 var square_n = 0.0;
@@ -51,6 +54,12 @@ par = (residuo != 0);
 Console.WriteLine($"El numero {numC} tiene paridad: {!par}");
 */
 
+
+/*
+ *
+ *Ejemplo del uso de If
+ *
+ *
 int numA = 100;
 int numB = 12;
 
@@ -61,7 +70,25 @@ if (numA > numB)
 else
 {
     Console.WriteLine($"segundo mayor que el primero");
-    
+
 }
 Console.WriteLine($" A:{numA}\n B:{numB}");
+*/
 
+/*
+*
+ *Usando un while
+ * 
+int dato = 19;
+
+while (true)
+{
+    Console.WriteLine("Ingrese su edad");
+    dato = Convert.ToInt16(Console.ReadLine());
+
+    dato++;
+
+    Console.WriteLine(dato);
+}
+
+*/
