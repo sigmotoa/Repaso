@@ -78,7 +78,7 @@ Console.WriteLine($" A:{numA}\n B:{numB}");
 /*
 *
  *Usando un while
- * 
+ *
 int dato = 19;
 
 while (true)
@@ -92,3 +92,40 @@ while (true)
 }
 
 */
+
+//Crear un validador para ingresar a un bar
+//Entran mayores de 18.
+//Cuando sea menor, lo manda a la casa
+//Pide el dato de la siguiente persona
+//Aforo maximo de 10 personas
+
+
+int aforo = 0;
+while (aforo<=10)
+{
+    int edad;
+    Console.WriteLine("Ingrese su edad");
+    edad = Convert.ToInt16(Console.ReadLine());
+
+    if (edad>=18)
+    {
+        aforo = aforo + 1;
+        Console.WriteLine($"Bienvenido, tu numero en el bar es: {aforo}");
+    }
+    else
+    {
+        Console.WriteLine("Chao baby");
+    }
+
+    Console.WriteLine($"El aforo hasta el momento es de: {aforo}");
+}
+
+
+/*
+var edad = 0;
+do
+{
+    Console.WriteLine("Hola");
+    Console.WriteLine("Ingrese su edad");
+    edad = Convert.ToInt16(Console.ReadLine());
+} while (edad <= 20);*/
