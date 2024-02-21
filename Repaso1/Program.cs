@@ -173,7 +173,10 @@ switch (edad)
 
 
 
-
+//Crear un menu que se muestre al iniciar y de la opción al usuario 
+//de poder conocer sus posibles meses de cumpleaños segun signo
+//Otra opcion sera validar si un numero es impar
+//Otra opcion sera Validar la edad segun su año de nacimiento
 
 
 
