@@ -3,7 +3,6 @@
 /Users/sigmotoa/Documents/UD/2024_1/ridercodes/Repaso1/Repaso1/bin/Debug/net7.0/Repaso1.runtimeconfig.json
 /Users/sigmotoa/Documents/UD/2024_1/ridercodes/Repaso1/Repaso1/bin/Debug/net7.0/Repaso1.dll
 /Users/sigmotoa/Documents/UD/2024_1/ridercodes/Repaso1/Repaso1/bin/Debug/net7.0/Repaso1.pdb
-/Users/sigmotoa/Documents/UD/2024_1/ridercodes/Repaso1/Repaso1/obj/Debug/net7.0/Repaso1.csproj.AssemblyReference.cache
 /Users/sigmotoa/Documents/UD/2024_1/ridercodes/Repaso1/Repaso1/obj/Debug/net7.0/Repaso1.GeneratedMSBuildEditorConfig.editorconfig
 /Users/sigmotoa/Documents/UD/2024_1/ridercodes/Repaso1/Repaso1/obj/Debug/net7.0/Repaso1.AssemblyInfoInputs.cache
 /Users/sigmotoa/Documents/UD/2024_1/ridercodes/Repaso1/Repaso1/obj/Debug/net7.0/Repaso1.AssemblyInfo.cs
@@ -13,3 +12,4 @@
 /Users/sigmotoa/Documents/UD/2024_1/ridercodes/Repaso1/Repaso1/obj/Debug/net7.0/Repaso1.pdb
 /Users/sigmotoa/Documents/UD/2024_1/ridercodes/Repaso1/Repaso1/obj/Debug/net7.0/Repaso1.genruntimeconfig.cache
 /Users/sigmotoa/Documents/UD/2024_1/ridercodes/Repaso1/Repaso1/obj/Debug/net7.0/ref/Repaso1.dll
+/Users/sigmotoa/Documents/UD/2024_1/ridercodes/Repaso1/Repaso1/obj/Debug/net7.0/Repaso1.sourcelink.json

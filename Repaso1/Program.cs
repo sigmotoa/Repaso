@@ -147,6 +147,7 @@ for (int aforo = 0; aforo < 5; aforo++)
 }
 */
 
+/*
 Console.WriteLine("Ingrese su edad");
 
 int edad = int.Parse(Console.ReadLine());
@@ -166,6 +167,7 @@ switch (edad)
         Console.WriteLine("No estas en nuestros registros");
         break;
 }
+*/
 
 //Recibir por consola el signo del zodiaco e
 //indicar en la salida, los posibles meses de cumpleaños.
@@ -179,19 +181,31 @@ switch (edad)
 //Otra opcion sera Validar la edad segun su año de nacimiento
 
 
+using System.Security.Principal;
+
+string[] countries;
+int[] population;
+
+countries = new[] { "CO", "CA", "MX", "PE", "ES", "VE","GE" };
+population = new[] { 50, 40, 120, 28, 30, 40, 25 };
+
+
+for (int i=0; i<countries.Length; i++)
+{
+Console.WriteLine($"{countries[i]}" +
+                  $" has a population near of:" +
+                  $" {population[i]} Million person");
+}
+
+Console.WriteLine($"In {countries[3]} are {population[3]}");
 
 
 
-
-
-
-
-
-
-
-
-
-
+//Con tres arrays va a crear un menu de una tienda
+//el primero tiene los productos
+//El segundo los precios
+//El tercero la disponibilidad (true/false)
+//Imprime el menu completo
 
 
 
