@@ -174,7 +174,6 @@ switch (edad)
 //Usar Switch case
 
 
-
 //Crear un menu que se muestre al iniciar y de la opción al usuario 
 //de poder conocer sus posibles meses de cumpleaños segun signo
 //Otra opcion sera validar si un numero es impar
@@ -183,6 +182,7 @@ switch (edad)
 
 using System.Security.Principal;
 
+/*
 string[] countries;
 int[] population;
 
@@ -198,7 +198,7 @@ Console.WriteLine($"{countries[i]}" +
 }
 
 Console.WriteLine($"In {countries[3]} are {population[3]}");
-
+*/
 
 
 //Con tres arrays va a crear un menu de una tienda
@@ -208,7 +208,53 @@ Console.WriteLine($"In {countries[3]} are {population[3]}");
 //Imprime el menu completo
 
 
+/*int[] units = new[] { 10, 20, 3, 25, 3, 17 };
+float[] prices = new[] { 2.5f, 4.1f, 20.0f, 31.4f, 19, 03f, 10.3f };
+string[] names = new[] { "a", "b", "c", "d", "e", "f" };
+
+for (int i = 0; i < names.Length; i++)
+{
+    Console.WriteLine($"El producto {names[i]}," +
+                      $" tiene {units[i]} y cada una " +
+                      $"cuesta {prices[i]} si compra todas las unidades," +
+                      $"le cuesta {prices[i]*units[i]}");
+}*/
+
+//Listas
+List<string> countries = new List<string>();
+countries.Add("CO");
+countries.Add("MX");
+countries.Add("PE");
+countries.Add("PE");
+countries.Add("PE");
+countries.Add("PE");
+countries.Add("VE");
+countries.Add("CA");
+
+Console.WriteLine(countries.Count());
+//Console.WriteLine(countries.FindIndex(0,4,"MX"));
+Console.WriteLine(countries.IndexOf("MX"));
+
+countries.RemoveRange(1,3);
+Console.WriteLine(countries.Remove("Pe"));
+
+countries.Remove(Console.ReadLine());
+
+Console.WriteLine(countries.Count());
+/*tring country;
+for (int i = 0; i < 5; i++)
+{
+    Console.WriteLine("Ingrese su pais");
+    country = Console.ReadLine();
+    countries.Add(country);
+}
+*/
 
 
 
+foreach (var pais in countries)
+{
+    Console.WriteLine(pais);
+}
 
+//https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/
