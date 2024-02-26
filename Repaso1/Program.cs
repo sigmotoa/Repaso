@@ -258,3 +258,5 @@ foreach (var pais in countries)
 }
 
 //https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/
+
+//https://learn.microsoft.com/en-us/dotnet/csharp/how-to/
