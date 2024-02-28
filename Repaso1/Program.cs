@@ -299,3 +299,44 @@ foreach (var nota in calificaciones)
 }
 
 Console.WriteLine(total);*/
+
+
+//Recibe y retorna
+
+/*
+bool f3(int a)
+{
+
+    if (2024 - a < 18)
+    {
+        return false;
+    }
+    else
+    {
+        return true;
+    }
+
+}
+
+Console.WriteLine("Ingresa tu año de nacimiento");
+int nacimiento = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine(f3(nacimiento));
+*/
+//Recibe No retorna
+
+List<bool> agree = new List<bool>();
+
+void f4(bool a)
+{
+    agree.Add(a);
+}
+
+Console.WriteLine("Cuantos valores va a ingresar?");
+int valores = Convert.ToInt32(Console.ReadLine());
+
+for (int i = 0; i < valores; i++)
+{
+    Console.WriteLine("Ingrese un valor para la lista");
+    f4(Convert.ToBoolean(Console.ReadLine()));
+}
