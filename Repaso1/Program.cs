@@ -340,3 +340,27 @@ for (int i = 0; i < valores; i++)
     Console.WriteLine("Ingrese un valor para la lista");
     f4(Convert.ToBoolean(Console.ReadLine()));
 }
+
+//Ejercicio.
+//Usando funciones, crear un menu repetitivo infinito
+//Ofrecer-> Calcular edad con fecha nacimiento
+//Indicar caballero del zodiaco
+//Validar ingreso a bar
+//Calcular area de cuadrado
+//Cuantos dias faltan para que cumpla años
+//Volver al menu
+//Terminar
+
+//Tips
+//Usar funciones
+//Usar switch Case
+//usar do-while
+
+
+
+
+
+
+
+
+
