@@ -221,7 +221,7 @@ for (int i = 0; i < names.Length; i++)
 }*/
 
 //Listas
-List<string> countries = new List<string>();
+/*List<string> countries = new List<string>();
 countries.Add("CO");
 countries.Add("MX");
 countries.Add("PE");
@@ -248,7 +248,7 @@ for (int i = 0; i < 5; i++)
     country = Console.ReadLine();
     countries.Add(country);
 }
-*/
+#1#
 
 
 
@@ -259,4 +259,43 @@ foreach (var pais in countries)
 
 //https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/
 
-//https://learn.microsoft.com/en-us/dotnet/csharp/how-to/
+//https://learn.microsoft.com/en-us/dotnet/csharp/how-to/*/
+
+//Funciones
+
+//No recibe, no retorna
+//f1();
+
+void f1()
+{
+    Console.WriteLine("Gracias por llamar a f1");
+}
+
+//f1();
+
+//No recibe, retorna
+
+
+/*
+List<float> calificaciones = new List<float>();
+
+float f2()
+{
+    Console.WriteLine("Ingrese su nota del corte");
+    float nota1 = Convert.ToInt32(Console.ReadLine());
+    return (nota1 * 35) / 100;
+}
+
+for (int i = 0; i < 3; i++)
+{
+    calificaciones.Add(f2());
+}
+
+float total = 0f;
+foreach (var nota in calificaciones)
+{
+    Console.WriteLine(nota);
+    total = total + nota;
+}
+
+Console.WriteLine(total);*/
